@@ -27,7 +27,7 @@ video {
   display: block;
 }
 
-/* Begin Header Navbar Styles */
+/* begin Header Navbar Styles */
 .nav-bar {
   display: flex;
   flex-wrap: wrap;
@@ -115,7 +115,7 @@ video {
   border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 
-/* Homepage Hero */
+/* Homepage  Hero */
 
 .hero-box {
   display: grid;
@@ -151,14 +151,6 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.hero-video {
-  background-color: #000;
-  background-image: none;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .hero-text-box {
@@ -204,7 +196,7 @@ video {
   background: rgba(0, 0, 0, 0.3);
 }
 
-/* Add Media Queries for large Screens */
+/* Add Media Queries for large screens */
 
 @media (min-width: 600px) {
   .nav-bar {
@@ -232,7 +224,6 @@ video {
     line-height: 2rem;
   }
 
-
   @media (min-width: 920px) {
     body {
       max-width: 1400px;
@@ -240,7 +231,7 @@ video {
     .hero-body {
       max-width: unset;
     }
-  
+
     .nav-bar {
       justify-content: space-between;
       padding: 1rem 0;
@@ -251,7 +242,7 @@ video {
       width: auto;
       justify-self: end;
     }
-  
+
     .logo {
       margin: 0 0 0 0.3rem;
       justify-self: start;
@@ -263,12 +254,14 @@ video {
       font-size: 4rem;
       line-height: 4rem;
     }
-  
+
     .about-text p {
       font-size: 1.5rem;
       line-height: 2rem;
     }
-  
+
     .footer-nav {
       justify-content: space-evenly;
-    } }
+    }
+  }
+}
