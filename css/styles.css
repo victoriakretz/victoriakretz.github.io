@@ -224,6 +224,55 @@ video {
   color: teal;
   padding: 0 1rem;
 }
+/* Begin Grid Gallery Styles */
+.gallery-page {
+  padding: 0 1rem 10rem 1rem;
+}
+
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 0.5rem;
+  grid-auto-rows: 300px;
+}
+
+.gallery-item {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.gallery-img {
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s ease-in-out;
+}
+
+.gallery-img:hover {
+  transform: scale(1.5);
+}
+
+.gallery-span {
+  grid-template-columns: 1fr;
+  grid-auto-flow: dense;
+}
+
+.w-1,
+.w-2,
+.w-3,
+.w-4,
+.w-5,
+.w-6 {
+  grid-column: span 1;
+}
+.h-1,
+.h-2,
+.h-3,
+.h-4,
+.h-5,
+.h-6 {
+  grid-row: span 1;
+}
 
 /* Footer Nav Extra Sytles */
 .footer-logo {
