@@ -35,7 +35,7 @@ video {
   align-items: center;
   line-height: 1rem;
   overflow: hidden;
-  background-color: #fff;
+  background-color: teal;
 }
 
 .logo,
@@ -83,7 +83,7 @@ video {
 .nav-menu a {
   font-weight: 400;
   letter-spacing: 0.1rem;
-  border-bottom: 1px solid #fff;
+  border-bottom: none;
   transition: all ease 0.1s;
 }
 
@@ -94,7 +94,7 @@ video {
 /* Hero Header Navbar Changes */
 
 .hero-nav {
-  background: none;
+  background: cadetblue;
   grid-column: 1/-1;
   grid-row: 1/ -1;
   background: none;
@@ -104,11 +104,11 @@ video {
 
 .hero-nav .logo a,
 .hero-nav .nav-menu a {
-  color: white;
+  color: cornsilk;
 }
 
 .hero-nav .nav-menu a:hover {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid teal;
 }
 
 .hero-nav .nav-menu a {
@@ -138,7 +138,7 @@ video {
 
 .hero-image-box::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: teal 50%;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -163,17 +163,19 @@ video {
 }
 
 .hero-heading {
-  font-size: 1.5rem;
+  font-size: 2rem;
   letter-spacing: 0.05rem;
   font-weight: bold;
-  text-transform: uppercase;
-  color: white;
+  text-transform: none;
+  color: cadetblue;
+  background-color: cornsilk;
 }
 
 .hero-text {
-  font-size: 1rem;
-  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
   color: white;
+  background-color: cadetblue;
 }
 
 .hero-button {
@@ -378,4 +380,13 @@ video {
   .footer-nav {
     justify-content: space-evenly;
   }
+}
+.shop {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  display: flex;
+  padding: 2fr;
+  background-color: white;
+  justify-content: center;
 }
